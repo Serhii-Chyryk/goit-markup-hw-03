@@ -224,7 +224,7 @@ header {
   margin-bottom: 24px; */
 
 .menu {
-  display: block;
+  display: inline-flex;
   gap: 40px;
   margin-left: 76px;
   padding-top: 24px;
