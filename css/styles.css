@@ -269,7 +269,48 @@ button {
 
 .section-list {
   display: flex;
-  justify-content: flex-start;
   justify-content: space-around;
   gap: 24px;
+}
+
+.section-third {
+  padding-bottom: 72px;
+  padding-top: 120px;
+}
+
+.team {
+  padding-top: 32px;
+  text-align: center;
+}
+
+.status {
+  padding-top: 8px;
+  text-align: center;
+}
+
+.section-list-port {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.app {
+  padding-top: 32px;
+  padding-left: 16px;
+}
+
+.port {
+  padding-top: 8px;
+  padding-left: 16px;
+}
+
+.floor {
+}
+
+.bottom {
+  max-width: 264px;
+}
+
+.webstudio {
+  padding-bottom: 15px;
 }
