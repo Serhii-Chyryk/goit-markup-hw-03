@@ -350,7 +350,7 @@ header {
   max-width: 496px;
 }
 
-.section-fourth {
+.section-desk {
   width: calc((100% - 72px) / 4);
 }
 
