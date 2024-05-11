@@ -195,6 +195,7 @@ ol {
 .header-nav {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 
 .section,
@@ -349,7 +350,7 @@ header {
   max-width: 496px;
 }
 
-.section-desk {
+.section-fourth {
   width: calc((100% - 72px) / 4);
 }
 
