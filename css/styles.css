@@ -397,3 +397,7 @@ header {
   display: inline-block;
   margin-bottom: 16px;
 }
+
+.menu-list-first {
+  padding: 24px 0;
+}
