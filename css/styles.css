@@ -264,13 +264,6 @@ header {
   cursor: pointer;
 }
 
-.wrap {
-  max-width: 496px;
-  margin: 0 auto;
-  padding-top: 188px;
-  padding-bottom: 188px;
-}
-
 .section-second {
   margin-bottom: 8px;
 }
