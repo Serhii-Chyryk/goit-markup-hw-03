@@ -74,7 +74,6 @@ body {
 
 .section-first {
   color: #fff;
-  background-color: #2e2f42;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -84,7 +83,6 @@ body {
 
 .section-second {
   color: #2e2f42;
-  background-color: #f4f4fd;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -112,7 +110,6 @@ body {
 
 .page {
   color: #434455;
-  background-color: #f4f4fd;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -132,8 +129,9 @@ body {
   color: #404bbf;
 }
 
-.section {
-  background-color: #2e2f42;
+.menu-list-first:hover,
+.menu-list-first:focus {
+  color: #404bbf;
 }
 
 .page-footer {
@@ -195,7 +193,7 @@ ol {
 .header-nav {
   display: flex;
   align-items: center;
-  padding: 24px 0;
+  margin-right: auto;
 }
 
 .section,
@@ -205,8 +203,6 @@ ol {
 }
 
 header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
   background: #fff;
 }
@@ -226,9 +222,6 @@ header {
 .menu {
   display: inline-flex;
   gap: 40px;
-  margin-left: 76px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .contacts-list {
@@ -236,8 +229,16 @@ header {
   gap: 40px;
 }
 
+.menu-list {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+}
+
 .section-first {
   margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container {
@@ -274,18 +275,11 @@ header {
   gap: 24px;
 }
 
-.section-third {
-  padding-bottom: 72px;
-  padding-top: 120px;
-}
-
 .team {
-  padding-top: 32px;
   text-align: center;
 }
 
 .status {
-  padding-top: 8px;
   text-align: center;
 }
 
@@ -293,16 +287,6 @@ header {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-}
-
-.app {
-  padding-top: 32px;
-  padding-left: 16px;
-}
-
-.port {
-  padding-top: 8px;
-  padding-left: 16px;
 }
 
 .bottom {
@@ -357,12 +341,7 @@ header {
 }
 
 .section-second {
-  text-align: center;
   margin-bottom: 8px;
-}
-
-.page {
-  text-align: center;
 }
 
 .section-list-port {
@@ -386,6 +365,13 @@ header {
 .logo-bottom {
   display: inline-block;
   margin-bottom: 16px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .menu-list-first {
@@ -400,4 +386,8 @@ header {
 .contacts-list {
   display: flex;
   gap: 40px;
+}
+
+.section-start {
+  background-color: #2e2f42;
 }
